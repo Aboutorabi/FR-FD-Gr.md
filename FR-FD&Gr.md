@@ -1,26 +1,25 @@
 ```mermaid
 flowchart LR
-    F["Finance"] --> G["Economic Growth"]
+    F["Finance"]
 
-    F --> A["Capital Accumulation"]
-    F --> B["Capital Productivity"]
-    F --> C["Technological Innovation"]
+    %% Channels
+    A["Capital Accumulation"]
+    B["Capital Productivity"]
+    C["Technological Innovation"]
 
-    A --- A_sub["Financial Repression: 
-    ↓ Savings & Investment Pools
-    ↑ Reserve Requirements
-    Misallocation of Credit"]
+    %% Subtitles (Financial Repression Effects)
+    A_sub["FR Effects: ↓ Savings & Investment • ↑ Reserve Requirements • Credit Misallocation"]
+    B_sub["FR Effects: Distorted Allocation • Monopolistic Banking • Informal Markets • Mispriced Signals"]
+    C_sub["FR Effects: ↓ Innovation Funding • Capital Controls • Weak VC/PE • Informal Finance"]
 
-    B --- B_sub["Financial Repression: 
-    Distorted Resource Allocation
-    Monopolistic Banking
-    Reliance on Informal Markets
-    Mispriced Investment Signals"]
+    %% Flow connections
+    F --> A --> G["Economic Growth"]
+    F --> B --> G
+    F --> C --> G
 
-    C --- C_sub["Financial Repression: 
-    Reduced Innovation Funding
-    Capital Controls
-    Weak Venture Capital
-    Informal Finance Reliance"]
+    %% Sub connections
+    A --- A_sub
+    B --- B_sub
+    C --- C_sub
 
 ```
