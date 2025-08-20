@@ -7,19 +7,14 @@ flowchart LR
     B["Capital Productivity"]
     C["Technological Innovation"]
 
-    %% Subtitles (Financial Repression Effects)
+    %% FR Effects (act as connectors to Growth)
     A_sub["FR Effects: ↓ Savings & Investment • ↑ Reserve Requirements • Credit Misallocation"]
     B_sub["FR Effects: Distorted Allocation • Monopolistic Banking • Informal Markets • Mispriced Signals"]
     C_sub["FR Effects: ↓ Innovation Funding • Capital Controls • Weak VC/PE • Informal Finance"]
 
     %% Flow connections
-    F --> A --> G["Economic Growth"]
-    F --> B --> G
-    F --> C --> G
-
-    %% Sub connections
-    A --- A_sub
-    B --- B_sub
-    C --- C_sub
+    F --> A --> A_sub --> G["Economic Growth"]
+    F --> B --> B_sub --> G
+    F --> C --> C_sub --> G
 
 ```
