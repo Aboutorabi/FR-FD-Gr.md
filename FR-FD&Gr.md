@@ -8,7 +8,7 @@ flowchart LR
     C["Technological Innovation"]
 
     %% FR Effects (multiline, single line per item)
-    A_sub["FR Effects:\n↓ Savings & Investment\n↑ Reserve Requirements\nCredit Misallocation"]
+    A_sub["FR Effects:<b> Savings & Investment\n↑ Reserve Requirements\nCredit Misallocation"]
     B_sub["FR Effects:\nDistorted Allocation\nMonopolistic Banking\nInformal Markets\nMispriced Signals"]
     C_sub["FR Effects:\n↓ Innovation Funding\nCapital Controls\nWeak Venture Capital\nInformal Finance"]
 
