@@ -1,6 +1,6 @@
 ```mermaid
 flowchart LR
-    F["Finance"]
+    F["Financial Development"]
 
     %% Channels
     A["Capital Accumulation"]
