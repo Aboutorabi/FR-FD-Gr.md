@@ -7,10 +7,10 @@ flowchart LR
     B["Capital Productivity"]
     C["Technological Innovation"]
 
-    %% FR Effects (multiline with bullets)
-    A_sub["FR Effects: • ↓ Savings & Investment • ↑ Reserve Requirements • Credit Misallocation"]
-    B_sub["FR Effects: • Distorted Allocation • Monopolistic Banking • Informal Markets • Mispriced Signals"]
-    C_sub["FR Effects: • ↓ Innovation Funding • Capital Controls • Weak Venture Capital • Informal Finance"]
+    %% FR Effects (multiline, single line per item)
+    A_sub["FR Effects:\n↓ Savings & Investment\n↑ Reserve Requirements\nCredit Misallocation"]
+    B_sub["FR Effects:\nDistorted Allocation\nMonopolistic Banking\nInformal Markets\nMispriced Signals"]
+    C_sub["FR Effects:\n↓ Innovation Funding\nCapital Controls\nWeak Venture Capital\nInformal Finance"]
 
     %% Flow connections
     F --> A --> A_sub --> G["Economic Growth"]
