@@ -9,8 +9,8 @@ flowchart LR
 
     %% FR Effects (multiline, single line per item)
     A_sub["FR Effects:<b></br> Savings & Investment<b></br> Reserve Requirements<b></br> Credit Misallocation"]
-    B_sub["FR Effects:<b></br> Distorted Allocation<b></br> Monopolistic Banking<b></br> Informal Markets\nMispriced Signals"]
-    C_sub["FR Effects:\n↓ Innovation Funding\nCapital Controls\nWeak Venture Capital\nInformal Finance"]
+    B_sub["FR Effects:<b></br> Distorted Allocation<b></br> Monopolistic Banking<b></br> Informal Markets<b></br> Mispriced Signals"]
+    C_sub["FR Effects:<b></br> Innovation Funding<b></br> Capital Controls<b></br> Weak Venture Capital<b></br> Informal Finance"]
 
     %% Flow connections
     F --> A --> A_sub --> G["Economic Growth"]
